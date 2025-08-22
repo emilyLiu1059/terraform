@@ -9,7 +9,7 @@ The core Terraform workflow consists of three stages:
 - terraform apply: On approval, Terraform performs the proposed operations in the correct order, respecting any resource dependencies. 
 
 ```
-terraform init
+terraform init      # load the terraform aws plugin and terraform module
 terraform plan
 terraform apply -auto-approve
 ```
